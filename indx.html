@@ -1,0 +1,20 @@
+<script>
+ let n01 = parseFloat(prompt("digite a sua pimeira nota da sua prova por favor"));
+ let n02 = parseFloat(prompt("digite a segunda nota da sua prova por favor"));
+
+if (n01 >= 0 && n01 <= 10 && n02 >= 0 && n02 <= 10){
+let media = (n01 + n02) / 2; 
+if (media >= 6){
+    alert ("parabéns! voce passou na diciplina com uma media de"-  + media.toFixed(1)+ ".");
+} else{
+    alert ("parabéns! voce foi reprovado"-  + media.toFlxed(1)+ ".");
+}
+
+
+} else{
+    alert("As notas inseridas são invalidas.");
+}
+
+
+
+</script>
