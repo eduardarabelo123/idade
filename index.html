@@ -2,15 +2,17 @@
 let idade = prompt("Digite sua idade por favor");
 
 if (idade >= 0 && idade <= 17){
-    document.write("voce e menor de idade");  
+alert("voce e menor de idade");  
 }
  if (idade >= 18 && idade <= 64){
-    document.write("voce e um adulto");
+alert("voce e um adulto");
  }
-else if (idade >=65 && idade <= 100){
-    document.write("voce e um idoso")
+if (idade >=65 && idade <= 100){
+alert("voce e um idoso")
 }
-else{
-    document.write("numero não cadastrado")
+else if (idade ==0 ){
+alert("idade nao cadastrada");
 }
+    
+
 </script>
